@@ -1,0 +1,194 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 16px;
+    width: 1920px;
+    height: 5643px;
+    background-color: wheat;
+    font-size: Montserrat;
+
+}
+* {
+    box-sizing: border-box;
+}
+.head {
+    background-image: url("Rectangle.png");   
+    width: 1920px;
+    height: 900px;
+    }
+
+.head-nav-list {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin-left: 952px;
+    height: 100px;
+    align-items: center;
+}
+.head-nav-item {
+    margin-right: 40px;
+}
+.head-nav-item a {
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.peredovaya {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 320px;
+    font-family: Montserrat;
+    color: white;
+    margin-bottom: 3rem;
+}
+.mysozdaem {
+    font-size: 48px;
+    font-weight: 800;
+    width: 50%;
+    /* background-color: cornflowerblue; */
+}
+.blue-button {
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgb(92, 92, 202);
+    color: cornsilk;
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+}
+.vys-stand-up {
+    display: flex;
+}
+.my-soz-pril {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    background-color: white;
+}
+.zagolovok {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+.my-soz-pril p {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.sozdaem-main {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    font-family: Montserrat;
+    margin-bottom: 1rem;
+}
+.sozdaem-main-item {
+    text-align: left;
+    text-decoration: none;
+
+}
+.sozdaem-main-item:nth-child(1) {
+    background-color: tomato;
+}
+.sozdaem-main-item:nth-child(2) {
+    background-color: rgb(141, 71, 255);
+}
+.sozdaem-main-item:nth-child(3) {
+    background-color: rgb(102, 255, 71);
+}
+.sozdaem-main-item-figure img {
+    background-color: turquoise;
+}
+.sozdaem-main-item-figure {
+    float: left;
+}
+.sozdaem-main-item-text {
+    margin-left: 110px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+.sozdanie-saitov {
+    background-color: yellowgreen;
+}
+.loren {
+    background-color: violet;
+}
+
+.footer {
+    /* margin-bottom: 1.25rem; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #F6F6F8;
+}
+.footer-up {
+    display: flex;
+    width: 70%;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 70px;
+    border-bottom: 2px solid #E0E0E0;
+    
+}
+.footer-up-contact {
+    background-color: tomato;
+    gap: 1rem;
+    text-align: left;
+    justify-content: left;
+    width: calc(100%/4);
+}
+.contact-item {
+    align-items: flex-start; /*здесь хотел сместить текст списка влево*/
+    background-color: teal;
+    text-align: left;/*здесь хотел сместить текст списка влево*/
+}
+
+.ul-item a{
+    text-decoration: none;
+    text-align: left;/*здесь хотел сместить текст списка влево*/
+
+}
+.footer-up div {
+    /* background-color: yellow; */
+    /* gap: 1rem; */
+    padding: 5px;
+    width: calc(100%/4);
+}
+.footer-up p {
+   font-family: Montserrat;
+   font-size: 18px;
+   font-weight: 600;
+}
+.footer-up a {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.footer-up-main-links {
+    background-color: violet;
+}
+.footer-up-projects {
+    background-color: rgb(130, 238, 188);
+}
+.footer-up-social {
+    background-color: rgb(130, 238, 144);
+}
+.ul-item {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+.vce-prava {
+    text-align: center;
+}
