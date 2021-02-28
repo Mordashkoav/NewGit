@@ -122,6 +122,55 @@ body {
 .loren {
     background-color: violet;
 }
+.vys-stand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vys-stand-up {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    background-color: thistle;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+}
+.vys-stand-text {
+    font-family: Montserrat;
+}
+.vys-stand-text p {
+    width: 80%;
+}
+.vys-stand-text a {
+    color: #4985FF;
+}
+.vys-stand-niz {
+    background-color: rgb(162, 201, 123);
+    width: 60%
+}
+.vys-stand-niz-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(107, 107, 221);
+    list-style: none;
+}
+.vys-stand-niz-list-item a{
+    text-decoration: none;
+    font-family: Montserrat;
+    align-items: center;
+}
+.vys-stand-niz-list-item{
+    background-color: rgb(86, 218, 86);
+}
+.vys-stand-niz-list-item-up {
+    background-color: rgb(196, 116, 132);
+    width: 100px;
+}
+.figcaption {
+    font-size: 36px;
+}
+
 
 .footer {
     /* margin-bottom: 1.25rem; */
