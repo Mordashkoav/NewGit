@@ -86,6 +86,11 @@ html, body {
     color: #2091F9;
     font-weight: 500;
 }
+.small-button a {
+    text-decoration: none;
+    color: #2091F9;
+
+}
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -131,6 +136,11 @@ html, body {
     align-self: center;
     margin-bottom: 7rem;
 }
+.big-button a {
+    text-decoration: none;
+    color: #2091F9;
+
+}
 .mac {
     /* display: block; */
     text-align: center;
@@ -148,11 +158,50 @@ html, body {
     margin: auto; */
     display: flex;
     justify-content: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
 }
+/* .flex-row.flex-column {
+    margin-left: 6rem;
+} */
 .menu-pict {
     float: right;
-    
+    font-size: 1.5rem;
+
 }
 .menu-text {
+    font-size: 0.9rem;
+}
+.buttons-buy-try {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+}
+.two-button {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    gap: 1rem;
+}
+.two-button button:nth-child(2) {
+    border: 1px solid white;
+    background-color: inherit;
+}
+.two-button a:nth-child(2) {
+    color: white;
+}
+.newsletter {
+    display: grid;
+    grid-template-columns: 1.5fr 1 fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin: auto;
 
+}
+.letter-pic {
+    grid-area: 1 1 5 2;
+    
 }
